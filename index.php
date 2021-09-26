@@ -11,10 +11,11 @@ $records=$statistics->getRecords();
 $name= $_POST['name'];
 
 $comments = $_POST['comments'];
-
+ob_clean();
 $fp = fopen("chat.csv","a");
 $cvsData = $name . ";" .  $comments ."\n";
 if($fp) {
+
     fwrite($fp, $cvsData);
     fclose($fp);
 

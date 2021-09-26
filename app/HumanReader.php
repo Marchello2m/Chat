@@ -46,8 +46,5 @@ class HumanReader
 
 
 
-//$name =$_GET['name'];
-//$surname=$_GET['surname'];
-//$pk=$_GET['pk'];
-//$info=$_GET['info'];
+
 
